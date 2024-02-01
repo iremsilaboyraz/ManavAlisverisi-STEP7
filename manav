@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Manav {
+    public static void main(String[] args){
+
+        double armut=2.14,elma=3.67,muz=0.95,patlıcan=5,domates=1.11,a,e,m,p,d,toplam;
+
+        Scanner input=new Scanner(System.in);
+
+        System.out.printf("Armut kaç kg:");
+        a= input.nextDouble();
+
+        System.out.printf("Elma kaç kg:");
+        e=input.nextDouble();
+
+        System.out.printf("Muz kaç kg:");
+        m= input.nextDouble();
+
+        System.out.printf("Patlıcan kaç kg:");
+        p= input.nextDouble();
+
+        System.out.printf("Domates kaç kg:");
+        d= input.nextDouble();
+
+        toplam=(armut*a)+(elma*e)+(muz*m)+(patlıcan*p)+(domates*d);
+        System.out.println("toplam:"+toplam);
+        
+    }
+}
